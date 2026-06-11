@@ -3,7 +3,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import datetime
 
-# Load from data1.csv (not transactions.csv)
 df = pd.read_csv('data1.csv', parse_dates=['Date'])
 
 customerdf = df.groupby('customerID').agg(
