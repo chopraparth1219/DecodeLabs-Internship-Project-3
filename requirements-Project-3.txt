@@ -1,0 +1,5 @@
+1. Numpy- for mathematical calculations
+2. Pandas- for reading csv files
+3. matplotlib.pyplot- for graph representation
+4. datetime
+   1. datetime for datetime
